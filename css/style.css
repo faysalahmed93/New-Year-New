@@ -63,5 +63,41 @@
   margin: 30px 0 50px 0;
   max-width: 500px;
 }
+/* welcome-party */
+.welcome-party {
+  background-image: url("../images/Vectorrr.png");
+  padding: 100px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.welcome-party-content {
+  width: 50%;
+  margin-left: 80px;
+}
+.welcome-party h3 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.welcome-party p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+}
+.welcome-party button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin: 20px 0 0 20px;
+}
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
