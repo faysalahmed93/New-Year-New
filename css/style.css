@@ -299,7 +299,7 @@
 }
 /* newsletter */
 .newsletter {
-  background: #f1e5e5;
+  background: #ffe8e8;
 }
 .newsletter-container {
   text-align: center;
@@ -375,10 +375,15 @@ footer {
 .left-info {
 }
 .right-info {
+}
+.right-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 1;
+}
+.right-content img {
+  margin-right: 10px;
 }
 .right-info a {
   color: #fff;
