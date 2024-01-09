@@ -13,7 +13,8 @@
 }
 /* banner-start */
 .banner {
-  background-image: url("../images/Banner\ Image.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -68,7 +69,8 @@
 }
 /* welcome-party */
 .welcome-party {
-  background-image: url("../images/Vectorrr.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Vectorrr.png");
   padding: 100px 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,6 +93,7 @@
   font-family: Inter;
   font-size: 18px;
   line-height: 30px;
+  margin: 20px 0;
 }
 .welcome-party button {
   font-family: Inter;
@@ -116,9 +119,8 @@
   text-align: center;
   font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
 }
 .park-hotel-content button {
@@ -138,6 +140,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 .coming-soon {
   width: 35%;
@@ -191,7 +194,206 @@
   line-height: 32px;
   margin: 10px 0 35px 0;
 }
-.new-year img {
+/* holiday-sale */
+.holiday-sale {
+}
+.holiday-text {
+  text-align: center;
+}
+.holiday-text h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-text h2 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-text p {
+  color: #66636c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.holiday-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.holiday-image-container img {
+  margin-top: 30px;
+  width: 100%;
+}
+.holiday-image-container:last-child img {
+}
+
+.holiday-image img {
+  position: relative;
+}
+.left-image {
+  width: 40%;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  z-index: 20;
+}
+.right-image {
+  width: 40%;
+  position: absolute;
+  right: 0%;
+  top: 20%;
+  z-index: 20;
+}
+
+.right-image img:last-child {
+  position: absolute;
+  top: 3%;
+  right: 55%;
+}
+/* awesome-portfolio */
+.awesome-text {
+}
+.awesome-text h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.awesome-text h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.awesome-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.awesome-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.awesome-single-image {
+  margin: 10px 0;
+  width: 30%;
+}
+.awesome-single-image img {
+  width: 100%;
+}
+.awesome-single-image:hover img {
+  opacity: 0.6;
+}
+/* newsletter */
+.newsletter {
+  background: #f1e5e5;
+}
+.newsletter-container {
+  text-align: center;
+  padding: 70px 0;
+  border-radius: 16px;
+
+  width: 80%;
+  margin: 0 auto;
+}
+.newsletter-container h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+.newsletter-container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.newsEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.newsEmail input {
+  height: 60px;
+  width: 300px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  padding-left: 50px;
+  font-family: Inter;
+  outline: none;
+}
+.newsEmail input[type="email"] {
+  color: #adacb0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.newsEmail button {
+  padding: 22px 35px;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #f00;
+  color: #fff;
+}
+/* footer */
+
+footer {
+  background-color: #070211;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 80px 0;
+}
+.address-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.left-info {
+}
+.right-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.right-info a {
+  color: #fff;
+  text-decoration: none;
+}
+/* social-link */
+.social-link {
+  text-align: center;
+  padding: 20px 0;
+}
+/* bottom-text */
+.bottom-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
