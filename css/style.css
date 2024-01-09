@@ -380,7 +380,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1;
 }
 .right-content img {
   margin-right: 10px;
